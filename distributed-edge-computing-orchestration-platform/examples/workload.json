@@ -1,0 +1,17 @@
+{
+  "name": "pos-fraud-detector",
+  "container_image": "registry.internal/retail/fraud-detector:1.8.2",
+  "resources": {
+    "cpu_millicores": 1500,
+    "memory_mb": 2048,
+    "storage_gb": 5
+  },
+  "replicas": 3,
+  "latency_sensitivity_ms": 80,
+  "node_type_affinity": ["retail_store"],
+  "slice_profile": "URLLC",
+  "cost_priority": "latency",
+  "env": {
+    "MODEL_VERSION": "v4"
+  }
+}

@@ -1,0 +1,23 @@
+[Unit]
+Description=Edge Orchestrator control plane
+After=network.target
+Documentation=https://github.com/YOUR_ORG/edge-orchestrator
+
+[Service]
+Type=simple
+Environment=EDGE_ORCH_DB_PATH=/var/lib/edge-orchestrator/edge_orchestrator.db
+Environment=EDGE_ORCH_LOG_LEVEL=INFO
+Environment=EDGE_ORCH_HOST=0.0.0.0
+Environment=EDGE_ORCH_PORT=8080
+ExecStart=/usr/local/bin/edge-orchestrator serve
+Restart=on-failure
+RestartSec=5
+User=edge-orchestrator
+Group=edge-orchestrator
+WorkingDirectory=/var/lib/edge-orchestrator
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/edge-orchestrator
+
+[Install]
+WantedBy=multi-user.target

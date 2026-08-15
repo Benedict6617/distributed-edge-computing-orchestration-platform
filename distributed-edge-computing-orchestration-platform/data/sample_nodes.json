@@ -1,0 +1,1458 @@
+[
+  {
+    "node_id": "node-retail-store-001",
+    "name": "In-Store Compute - Dallas, TX",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 32.6342,
+      "longitude": -96.8645,
+      "region": "us-east",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 64,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Dallas",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0168,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-retail-store-002",
+    "name": "In-Store Compute - Warsaw, Poland",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 52.0892,
+      "longitude": 20.8903,
+      "region": "eu-central",
+      "country_code": "PL"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 64,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Warsaw",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0152,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-retail-store-003",
+    "name": "POS Gateway - Singapore",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 1.3789,
+      "longitude": 103.9126,
+      "region": "apac-sea",
+      "country_code": "SG"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 64,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Singapore",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0164,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-retail-store-004",
+    "name": "Store Edge Node - Dallas, TX",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 32.6545,
+      "longitude": -96.918,
+      "region": "us-east",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Dallas",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0112,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-retail-store-005",
+    "name": "In-Store Compute - Atlanta, GA",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 33.7646,
+      "longitude": -84.2892,
+      "region": "us-east",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Atlanta",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0103,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-retail-store-006",
+    "name": "POS Gateway - Atlanta, GA",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 33.8556,
+      "longitude": -84.2781,
+      "region": "us-east",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wired",
+    "labels": {
+      "site_city": "Atlanta",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0134,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-retail-store-007",
+    "name": "POS Gateway - Phoenix, AZ",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 33.4995,
+      "longitude": -112.0135,
+      "region": "us-west",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 64,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Phoenix",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0156,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-retail-store-008",
+    "name": "POS Gateway - Paris, France",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 48.7876,
+      "longitude": 2.4798,
+      "region": "eu-west",
+      "country_code": "FR"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 64,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Paris",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0119,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-retail-store-009",
+    "name": "In-Store Compute - Amsterdam, Netherlands",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 52.3379,
+      "longitude": 4.774,
+      "region": "eu-west",
+      "country_code": "NL"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Amsterdam",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0159,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-retail-store-010",
+    "name": "Store Edge Node - Berlin, Germany",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 52.4119,
+      "longitude": 13.4785,
+      "region": "eu-central",
+      "country_code": "DE"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "degraded",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Berlin",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.015,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-retail-store-011",
+    "name": "In-Store Compute - Denver, CO",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 39.7421,
+      "longitude": -105.113,
+      "region": "us-west",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 64,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Denver",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0098,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-retail-store-012",
+    "name": "POS Gateway - Atlanta, GA",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 33.7144,
+      "longitude": -84.3592,
+      "region": "us-east",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Atlanta",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.011,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-retail-store-013",
+    "name": "POS Gateway - Toronto, Canada",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 43.7285,
+      "longitude": -79.3026,
+      "region": "ca-central",
+      "country_code": "CA"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Toronto",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0115,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-retail-store-014",
+    "name": "Store Edge Node - Seattle, WA",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 47.6085,
+      "longitude": -122.4502,
+      "region": "us-west",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Seattle",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0141,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-retail-store-015",
+    "name": "Store Edge Node - Sydney, Australia",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": -33.7433,
+      "longitude": 151.239,
+      "region": "apac-se",
+      "country_code": "AU"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Sydney",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0093,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-retail-store-016",
+    "name": "In-Store Compute - Los Angeles, CA",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 34.1656,
+      "longitude": -118.1096,
+      "region": "us-west",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 64,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Los Angeles",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0138,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-retail-store-017",
+    "name": "In-Store Compute - Tokyo, Japan",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 35.8103,
+      "longitude": 139.5498,
+      "region": "apac-ne",
+      "country_code": "JP"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Tokyo",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0191,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-retail-store-018",
+    "name": "POS Gateway - Munich, Germany",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 48.1048,
+      "longitude": 11.6335,
+      "region": "eu-central",
+      "country_code": "DE"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wired",
+    "labels": {
+      "site_city": "Munich",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0188,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-retail-store-019",
+    "name": "POS Gateway - Amsterdam, Netherlands",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 52.2239,
+      "longitude": 4.9203,
+      "region": "eu-west",
+      "country_code": "NL"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 64,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Amsterdam",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0089,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-retail-store-020",
+    "name": "In-Store Compute - Amsterdam, Netherlands",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 52.2389,
+      "longitude": 4.8255,
+      "region": "eu-west",
+      "country_code": "NL"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Amsterdam",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0145,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-retail-store-021",
+    "name": "Store Edge Node - Tokyo, Japan",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 35.7684,
+      "longitude": 139.5574,
+      "region": "apac-ne",
+      "country_code": "JP"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 64,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Tokyo",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0132,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-retail-store-022",
+    "name": "POS Gateway - Dallas, TX",
+    "node_type": "retail_store",
+    "location": {
+      "latitude": 32.6449,
+      "longitude": -96.7285,
+      "region": "us-east",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 64,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Dallas",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0103,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-kiosk-001",
+    "name": "Self-Checkout Kiosk - Berlin, Germany",
+    "node_type": "kiosk",
+    "location": {
+      "latitude": 52.5088,
+      "longitude": 13.5173,
+      "region": "eu-central",
+      "country_code": "DE"
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "memory_mb": 4096,
+      "storage_gb": 32,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "degraded",
+    "connection_type": "4g-lte",
+    "labels": {
+      "site_city": "Berlin",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0088,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-kiosk-002",
+    "name": "Interactive Kiosk Node - Toronto, Canada",
+    "node_type": "kiosk",
+    "location": {
+      "latitude": 43.754,
+      "longitude": -79.2425,
+      "region": "ca-central",
+      "country_code": "CA"
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "memory_mb": 4096,
+      "storage_gb": 32,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Toronto",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0064,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-kiosk-003",
+    "name": "Interactive Kiosk Node - Paris, France",
+    "node_type": "kiosk",
+    "location": {
+      "latitude": 48.7072,
+      "longitude": 2.3193,
+      "region": "eu-west",
+      "country_code": "FR"
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "memory_mb": 4096,
+      "storage_gb": 32,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "offline",
+    "connection_type": "4g-lte",
+    "labels": {
+      "site_city": "Paris",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0065,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-kiosk-004",
+    "name": "Interactive Kiosk Node - Munich, Germany",
+    "node_type": "kiosk",
+    "location": {
+      "latitude": 48.0504,
+      "longitude": 11.4495,
+      "region": "eu-central",
+      "country_code": "DE"
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "memory_mb": 4096,
+      "storage_gb": 32,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Munich",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0059,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-kiosk-005",
+    "name": "Self-Checkout Kiosk - Sydney, Australia",
+    "node_type": "kiosk",
+    "location": {
+      "latitude": -33.9948,
+      "longitude": 151.115,
+      "region": "apac-se",
+      "country_code": "AU"
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "memory_mb": 4096,
+      "storage_gb": 32,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Sydney",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0092,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-kiosk-006",
+    "name": "Self-Checkout Kiosk - Atlanta, GA",
+    "node_type": "kiosk",
+    "location": {
+      "latitude": 33.7248,
+      "longitude": -84.3629,
+      "region": "us-east",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "memory_mb": 4096,
+      "storage_gb": 32,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "4g-lte",
+    "labels": {
+      "site_city": "Atlanta",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0052,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-kiosk-007",
+    "name": "Self-Checkout Kiosk - Denver, CO",
+    "node_type": "kiosk",
+    "location": {
+      "latitude": 39.7907,
+      "longitude": -105.0503,
+      "region": "us-west",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "memory_mb": 4096,
+      "storage_gb": 32,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Denver",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0041,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-kiosk-008",
+    "name": "Self-Checkout Kiosk - Phoenix, AZ",
+    "node_type": "kiosk",
+    "location": {
+      "latitude": 33.4502,
+      "longitude": -112.1843,
+      "region": "us-west",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "memory_mb": 4096,
+      "storage_gb": 32,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Phoenix",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0093,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-kiosk-009",
+    "name": "Self-Checkout Kiosk - Munich, Germany",
+    "node_type": "kiosk",
+    "location": {
+      "latitude": 48.1686,
+      "longitude": 11.7282,
+      "region": "eu-central",
+      "country_code": "DE"
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "memory_mb": 4096,
+      "storage_gb": 32,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Munich",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0089,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-kiosk-010",
+    "name": "Interactive Kiosk Node - Dallas, TX",
+    "node_type": "kiosk",
+    "location": {
+      "latitude": 32.8936,
+      "longitude": -96.7243,
+      "region": "us-east",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "memory_mb": 4096,
+      "storage_gb": 32,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "4g-lte",
+    "labels": {
+      "site_city": "Dallas",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0057,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-kiosk-011",
+    "name": "Self-Checkout Kiosk - Berlin, Germany",
+    "node_type": "kiosk",
+    "location": {
+      "latitude": 52.5216,
+      "longitude": 13.3303,
+      "region": "eu-central",
+      "country_code": "DE"
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "memory_mb": 4096,
+      "storage_gb": 32,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Berlin",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0078,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-kiosk-012",
+    "name": "Self-Checkout Kiosk - Denver, CO",
+    "node_type": "kiosk",
+    "location": {
+      "latitude": 39.7803,
+      "longitude": -105.0617,
+      "region": "us-west",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "memory_mb": 4096,
+      "storage_gb": 32,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Denver",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0082,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-kiosk-013",
+    "name": "Self-Checkout Kiosk - Denver, CO",
+    "node_type": "kiosk",
+    "location": {
+      "latitude": 39.7529,
+      "longitude": -104.8899,
+      "region": "us-west",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "memory_mb": 4096,
+      "storage_gb": 32,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "4g-lte",
+    "labels": {
+      "site_city": "Denver",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0048,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-kiosk-014",
+    "name": "Self-Checkout Kiosk - Los Angeles, CA",
+    "node_type": "kiosk",
+    "location": {
+      "latitude": 34.1023,
+      "longitude": -118.2876,
+      "region": "us-west",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 2,
+      "memory_mb": 4096,
+      "storage_gb": 32,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "degraded",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Los Angeles",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0085,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-factory-001",
+    "name": "Line Controller Edge - Warsaw, Poland",
+    "node_type": "factory",
+    "location": {
+      "latitude": 52.0871,
+      "longitude": 21.0832,
+      "region": "eu-central",
+      "country_code": "PL"
+    },
+    "hardware": {
+      "cpu_cores": 16,
+      "memory_mb": 32768,
+      "storage_gb": 512,
+      "gpu": true,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "degraded",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Warsaw",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0441,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-factory-002",
+    "name": "Line Controller Edge - New York, NY",
+    "node_type": "factory",
+    "location": {
+      "latitude": 40.8204,
+      "longitude": -74.0893,
+      "region": "us-east",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 16,
+      "memory_mb": 32768,
+      "storage_gb": 512,
+      "gpu": true,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "New York",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0292,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-factory-003",
+    "name": "MES Edge Node - Amsterdam, Netherlands",
+    "node_type": "factory",
+    "location": {
+      "latitude": 52.3012,
+      "longitude": 4.7749,
+      "region": "eu-west",
+      "country_code": "NL"
+    },
+    "hardware": {
+      "cpu_cores": 16,
+      "memory_mb": 32768,
+      "storage_gb": 512,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Amsterdam",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0392,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-factory-004",
+    "name": "MES Edge Node - Berlin, Germany",
+    "node_type": "factory",
+    "location": {
+      "latitude": 52.4236,
+      "longitude": 13.5438,
+      "region": "eu-central",
+      "country_code": "DE"
+    },
+    "hardware": {
+      "cpu_cores": 16,
+      "memory_mb": 32768,
+      "storage_gb": 512,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wired",
+    "labels": {
+      "site_city": "Berlin",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0233,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-factory-005",
+    "name": "MES Edge Node - Sydney, Australia",
+    "node_type": "factory",
+    "location": {
+      "latitude": -33.9841,
+      "longitude": 151.3292,
+      "region": "apac-se",
+      "country_code": "AU"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 256,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Sydney",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0213,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-factory-006",
+    "name": "Plant Floor Gateway - Warsaw, Poland",
+    "node_type": "factory",
+    "location": {
+      "latitude": 52.1007,
+      "longitude": 21.0615,
+      "region": "eu-central",
+      "country_code": "PL"
+    },
+    "hardware": {
+      "cpu_cores": 16,
+      "memory_mb": 32768,
+      "storage_gb": 512,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Warsaw",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0399,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-warehouse-001",
+    "name": "Sortation Edge - Paris, France",
+    "node_type": "warehouse",
+    "location": {
+      "latitude": 48.9158,
+      "longitude": 2.3685,
+      "region": "eu-west",
+      "country_code": "FR"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 256,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Paris",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0283,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-warehouse-002",
+    "name": "Sortation Edge - Munich, Germany",
+    "node_type": "warehouse",
+    "location": {
+      "latitude": 48.1069,
+      "longitude": 11.6821,
+      "region": "eu-central",
+      "country_code": "DE"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Munich",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0192,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-warehouse-003",
+    "name": "Sortation Edge - Singapore",
+    "node_type": "warehouse",
+    "location": {
+      "latitude": 1.3347,
+      "longitude": 103.7339,
+      "region": "apac-sea",
+      "country_code": "SG"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Singapore",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0184,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-warehouse-004",
+    "name": "WMS Gateway - Los Angeles, CA",
+    "node_type": "warehouse",
+    "location": {
+      "latitude": 34.104,
+      "longitude": -118.3263,
+      "region": "us-west",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 8,
+      "memory_mb": 16384,
+      "storage_gb": 256,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wired",
+    "labels": {
+      "site_city": "Los Angeles",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0155,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-warehouse-005",
+    "name": "Sortation Edge - Warsaw, Poland",
+    "node_type": "warehouse",
+    "location": {
+      "latitude": 52.3455,
+      "longitude": 21.0349,
+      "region": "eu-central",
+      "country_code": "PL"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Warsaw",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.023,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-warehouse-006",
+    "name": "Fulfillment Edge Node - Warsaw, Poland",
+    "node_type": "warehouse",
+    "location": {
+      "latitude": 52.1454,
+      "longitude": 21.1034,
+      "region": "eu-central",
+      "country_code": "PL"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "degraded",
+    "connection_type": "wired",
+    "labels": {
+      "site_city": "Warsaw",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0261,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-warehouse-007",
+    "name": "Sortation Edge - Singapore",
+    "node_type": "warehouse",
+    "location": {
+      "latitude": 1.4024,
+      "longitude": 103.9662,
+      "region": "apac-sea",
+      "country_code": "SG"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Singapore",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0273,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-warehouse-008",
+    "name": "Sortation Edge - Singapore",
+    "node_type": "warehouse",
+    "location": {
+      "latitude": 1.4713,
+      "longitude": 103.8929,
+      "region": "apac-sea",
+      "country_code": "SG"
+    },
+    "hardware": {
+      "cpu_cores": 4,
+      "memory_mb": 8192,
+      "storage_gb": 128,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wifi",
+    "labels": {
+      "site_city": "Singapore",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0202,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-cell-tower-001",
+    "name": "MEC Compute Node - Tokyo, Japan",
+    "node_type": "cell_tower",
+    "location": {
+      "latitude": 35.7142,
+      "longitude": 139.5827,
+      "region": "apac-ne",
+      "country_code": "JP"
+    },
+    "hardware": {
+      "cpu_cores": 16,
+      "memory_mb": 32768,
+      "storage_gb": 512,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wired",
+    "labels": {
+      "site_city": "Tokyo",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0394,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-cell-tower-002",
+    "name": "Tower Edge Site - Los Angeles, CA",
+    "node_type": "cell_tower",
+    "location": {
+      "latitude": 34.0171,
+      "longitude": -118.3479,
+      "region": "us-west",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 16,
+      "memory_mb": 32768,
+      "storage_gb": 512,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Los Angeles",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0466,
+    "firmware_version": "2.3.1"
+  },
+  {
+    "node_id": "node-cell-tower-003",
+    "name": "Tower Edge Site - Phoenix, AZ",
+    "node_type": "cell_tower",
+    "location": {
+      "latitude": 33.5483,
+      "longitude": -112.1072,
+      "region": "us-west",
+      "country_code": "US"
+    },
+    "hardware": {
+      "cpu_cores": 16,
+      "memory_mb": 32768,
+      "storage_gb": 512,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "degraded",
+    "connection_type": "wired",
+    "labels": {
+      "site_city": "Phoenix",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0491,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-cell-tower-004",
+    "name": "MEC Compute Node - Toronto, Canada",
+    "node_type": "cell_tower",
+    "location": {
+      "latitude": 43.7275,
+      "longitude": -79.3694,
+      "region": "ca-central",
+      "country_code": "CA"
+    },
+    "hardware": {
+      "cpu_cores": 16,
+      "memory_mb": 32768,
+      "storage_gb": 512,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wired",
+    "labels": {
+      "site_city": "Toronto",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0388,
+    "firmware_version": "2.3.2"
+  },
+  {
+    "node_id": "node-cell-tower-005",
+    "name": "MEC Compute Node - Paris, France",
+    "node_type": "cell_tower",
+    "location": {
+      "latitude": 48.9239,
+      "longitude": 2.4544,
+      "region": "eu-west",
+      "country_code": "FR"
+    },
+    "hardware": {
+      "cpu_cores": 16,
+      "memory_mb": 32768,
+      "storage_gb": 512,
+      "gpu": false,
+      "architecture": "arm64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "5g",
+    "labels": {
+      "site_city": "Paris",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0663,
+    "firmware_version": "2.4.0"
+  },
+  {
+    "node_id": "node-cell-tower-006",
+    "name": "Tower Edge Site - Warsaw, Poland",
+    "node_type": "cell_tower",
+    "location": {
+      "latitude": 52.1204,
+      "longitude": 21.0007,
+      "region": "eu-central",
+      "country_code": "PL"
+    },
+    "hardware": {
+      "cpu_cores": 16,
+      "memory_mb": 32768,
+      "storage_gb": 512,
+      "gpu": false,
+      "architecture": "amd64"
+    },
+    "connectivity_state": "online",
+    "connection_type": "wired",
+    "labels": {
+      "site_city": "Warsaw",
+      "tier": "edge"
+    },
+    "cost_per_hour_usd": 0.0452,
+    "firmware_version": "2.3.2"
+  }
+]

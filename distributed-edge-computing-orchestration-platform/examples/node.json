@@ -1,0 +1,23 @@
+{
+  "name": "Downtown Store #42",
+  "node_type": "retail_store",
+  "location": {
+    "latitude": 41.8781,
+    "longitude": -87.6298,
+    "region": "us-east",
+    "country_code": "US"
+  },
+  "hardware": {
+    "cpu_cores": 4,
+    "memory_mb": 8192,
+    "storage_gb": 64,
+    "gpu": false,
+    "architecture": "arm64"
+  },
+  "connection_type": "5g",
+  "cost_per_hour_usd": 0.012,
+  "labels": {
+    "site_city": "Chicago",
+    "tier": "edge"
+  }
+}

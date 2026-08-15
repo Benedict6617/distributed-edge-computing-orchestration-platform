@@ -1,0 +1,67 @@
+version: "3.9"
+
+# Brings up the control plane plus three simulated edge-agent containers
+# reporting synthetic telemetry against it -- useful for demoing fleet
+# health/observability without physical hardware. See agent/simulator.py.
+services:
+  orchestrator:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - orchestrator-data:/data
+    environment:
+      EDGE_ORCH_LOG_LEVEL: INFO
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/health')"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  seed:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    depends_on:
+      orchestrator:
+        condition: service_healthy
+    volumes:
+      - orchestrator-data:/data
+    entrypoint: ["edge-orchestrator"]
+    command: ["seed"]
+    restart: "no"
+
+  agent-retail-01:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    entrypoint: ["python3", "-m", "edge_orchestrator.agent.simulator"]
+    command: ["--api", "http://orchestrator:8080", "--node-id", "node-retail-store-001", "--duration", "3600"]
+
+  agent-factory-01:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    entrypoint: ["python3", "-m", "edge_orchestrator.agent.simulator"]
+    command: ["--api", "http://orchestrator:8080", "--node-id", "node-factory-001", "--duration", "3600"]
+
+  agent-kiosk-01:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+    entrypoint: ["python3", "-m", "edge_orchestrator.agent.simulator"]
+    command: ["--api", "http://orchestrator:8080", "--node-id", "node-kiosk-001", "--duration", "3600", "--flap-probability", "0.15"]
+
+volumes:
+  orchestrator-data:

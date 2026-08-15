@@ -1,0 +1,34 @@
+{
+  "eu": {
+    "countries": ["DE", "FR", "NL", "IE", "ES", "IT", "BE", "PL", "SE", "AT"],
+    "allowed_destination_regions": ["eu"],
+    "regulation": "GDPR",
+    "requires_encryption_at_rest": true,
+    "requires_encryption_in_transit": true,
+    "data_retention_days_max": 365
+  },
+  "us": {
+    "countries": ["US"],
+    "allowed_destination_regions": ["us"],
+    "regulation": "US state privacy laws (CCPA/CPRA and sector rules)",
+    "requires_encryption_at_rest": true,
+    "requires_encryption_in_transit": true,
+    "data_retention_days_max": null
+  },
+  "apac": {
+    "countries": ["SG", "JP", "AU", "IN"],
+    "allowed_destination_regions": ["apac"],
+    "regulation": "APAC data localization (e.g. Singapore PDPA)",
+    "requires_encryption_at_rest": true,
+    "requires_encryption_in_transit": true,
+    "data_retention_days_max": 730
+  },
+  "ca": {
+    "countries": ["CA"],
+    "allowed_destination_regions": ["ca", "us"],
+    "regulation": "PIPEDA",
+    "requires_encryption_at_rest": true,
+    "requires_encryption_in_transit": true,
+    "data_retention_days_max": 365
+  }
+}
